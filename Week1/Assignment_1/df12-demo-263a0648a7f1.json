@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "df12-demo",
+  "private_key_id": "263a0648a7f194bd428d6b5b2f4d030bc5b8d539",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBWychNxrvKB9w\nOzrtCNdWy3TWtIY1bY/pkN6QtYYu2BVpw86Kw6OrDrNBKzHmZrgpPMGbo0alG+VE\nX7bfXiriGsIKvRFSWUh90u25acpx9cdOI6rFRFt2dD8Bw6cMz82kukhyvQB6c0lt\nUnoJyQEIIXwNoC4hwrcCZrcu00V+62X87wSUNzjrtT8+6kqHJ03uyVSDCkGL1XoM\nNqB+zSK6u3mxOXMUQhw9iMnO2QrXokyxXuy9DLrFuR0NoEskogId0kBxmSCNaDq2\nsB7bsFK/Qo0Z3X3hRee0JGW5ynTt7YnkRel9FSXiXhOBSHykIeeptpDS5EUa70AB\nl2nsRyuvAgMBAAECggEABckddZ/5fVh9AFW1YKxYDS/PUjFaprSdjsaX8kqMNlCe\n62hBgONzvUWWVYfeWV+PeSRpQqfzEDOye4ZFqY9exx832SxpHUawpZsvI9InjZtm\nGE9256ow9m1qCTp6gCajp58vVceUARX8B3plTm+mSUD/PkUhvD7gTQEX0B3gQXjq\nZlpGH2+C5+aL25edruydhpMKiJLMmU7F+sNrNvMg1zAEtApM7R4Vh2xe/yAaG2I4\nQL/B/UkFn2k8hgfBWcIocrcXtFFT6rgSfbRNuNZpP+QobB/5fyaq+IdSFS4YA52H\nC2CoyFVT83K0z0zl3SlIWaGgsXw2zvHD3OWjBFNmAQKBgQDiIb7MYaieStrZoNCM\nGkWnrlqTDVgxqaPQ8Tf88RsUXcrmKcvx9PSw+amDZWVR6BoQjzCZsL+XLzO7YbEJ\nufCqk4XfW2CN/+C+kbK+G5QoiJWYrJcgwVmfzL4JgGG6yAx/mJeDQXnD7HzZHL5l\n0UjLxPu4uXUoWASgSlOpMCO4rwKBgQDa5ScE7lRWCcC2A/6vV5BCwEsaR/YNx+fd\nYlnkpc08ql8pphsBAJ9yo9YVADgpy1QQZ6E9HFthaPqeu27hIzfG6Yatqd0o73Cc\nrfV9Uk3CyC5I2lv0BODoUaA+IiYfnrGQ5owLgSxhuoa571j7iCgnIbKTzypoMjJy\n+5r39ep9AQKBgQC+bhiVWTB8jSEb4Hd/ZKh/+y4/ZB9/QxK3ZEv38LsTPaEejtg2\n3EgruTPteTgH7+PzSgJtixDtKkzwYeaLAFER9MXqQLNhIbiMA3p46hSsxcjlF4L1\njJ4DGpJ2weyLNOiBk2kUmdEHE2JYHAKjD8m0ACDTgSqOXQEYUz983RNX9QKBgAU/\nRv8sQ2NImpECaYGEhNXEzEgV/4T3DMzWxbbgbpoMr3lNHQqaHDhgSwp31eDSmfJG\nuavAWURtgsx5S8Aj2vtur6bMEpwfmUB4PxFA/tIzgECI03l3AHkxM7kpkmZhpHoH\nvMWt1AWHtiEQ5r4o1mWRvjki1y5mPaVZ+K4G/BcBAoGAEbscdEsqpKSNgdyCpe5+\nBiDPKvOnLa2xDww4gTWVj9iMAVmk+ripweBBHO9bWrxKjWlEsEw9HLioMJApyPPi\nk1STqQnx86ykgClw4WUYb3p8f0GxDQ/iqIGCbxGYqiwILTWWzKmDkPnYJfiFvSSy\n6oD4gOLTx4xMnl7ogG77scQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "df12-assign1-banksim-sa@df12-demo.iam.gserviceaccount.com",
+  "client_id": "111023820258603217284",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/df12-assign1-banksim-sa%40df12-demo.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
