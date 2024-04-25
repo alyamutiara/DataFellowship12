@@ -1,0 +1,29 @@
+[0m11:17:37.221517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109037b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb71a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b01610>]}
+
+
+============================== 11:17:37.224484 | d227b1c8-726d-4d0c-b7fd-4a38876fa3ef ==============================
+[0m11:17:37.224484 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:17:37.224784 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/alya/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:17:47.822985 [debug] [MainThread]: Starter project path: /Users/alya/Documents/GitHub/DataFellowship12/Training 14 - Hands on Hands-On Transformation Scenarios with Banking Data/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:17:47.840584 [info ] [MainThread]: 
+Your new dbt project "pbank" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:17:47.841771 [info ] [MainThread]: Setting up your profile.
+[0m11:19:41.918596 [info ] [MainThread]: Profile pbank written to /Users/alya/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:19:41.979204 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 124.78398, "process_user_time": 3.007927, "process_kernel_time": 0.713061, "process_mem_max_rss": "178094080", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:19:41.980232 [debug] [MainThread]: Command `dbt init` succeeded at 11:19:41.980055 after 124.79 seconds
+[0m11:19:41.981051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb71a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1385203b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f87a5a0>]}
+[0m11:19:41.982008 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,277 @@
+[0m11:29:41.462996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072a2f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072b92b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072b8fe0>]}
+
+
+============================== 11:29:41.466796 | 8b7e6a10-3456-42f8-a4c1-a6c02d594788 ==============================
+[0m11:29:41.466796 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:29:41.467115 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/alya/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:29:41.467421 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/alya/.dbt')}
+[0m11:29:41.467582 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:30:12.690691 [debug] [MainThread]: Starter project path: /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:30:12.729240 [info ] [MainThread]: 
+Your new dbt project "learn_dbt_fundamentals" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:30:12.729958 [info ] [MainThread]: Setting up your profile.
+[0m11:36:11.934141 [info ] [MainThread]: Profile learn_dbt_fundamentals written to /Users/alya/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:36:12.042029 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 390.61508, "process_user_time": 2.861334, "process_kernel_time": 0.533797, "process_mem_max_rss": "171081728", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:36:12.048601 [debug] [MainThread]: Command `dbt init` succeeded at 11:36:12.047787 after 390.62 seconds
+[0m11:36:12.052044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072a2f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107067170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110caec90>]}
+[0m11:36:12.054064 [debug] [MainThread]: Flushing usage events
+[0m11:37:48.455600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a8fef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a2b1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050aae70>]}
+
+
+============================== 11:37:48.462058 | e9209977-98d2-4288-9f87-ae0d855f3835 ==============================
+[0m11:37:48.462058 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:37:48.462475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:37:48.462857 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:37:48.463023 [info ] [MainThread]: python version: 3.12.3
+[0m11:37:48.463163 [info ] [MainThread]: python path: /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/bin/python
+[0m11:37:48.463299 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m11:37:49.488597 [info ] [MainThread]: Using profiles dir at /Users/alya/.dbt
+[0m11:37:49.489006 [info ] [MainThread]: Using profiles.yml file at /Users/alya/.dbt/profiles.yml
+[0m11:37:49.491662 [info ] [MainThread]: Using dbt_project.yml file at /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/dbt_project.yml
+[0m11:37:49.492292 [info ] [MainThread]: adapter type: bigquery
+[0m11:37:49.492530 [info ] [MainThread]: adapter version: 1.7.7
+[0m11:37:49.492736 [info ] [MainThread]: Configuration:
+[0m11:37:49.492939 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:37:49.493087 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:37:49.493241 [info ] [MainThread]: Required dependencies:
+[0m11:37:49.493440 [debug] [MainThread]: Executing "git --help"
+[0m11:37:49.520122 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:37:49.525221 [debug] [MainThread]: STDERR: "b''"
+[0m11:37:49.526090 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:37:49.526868 [info ] [MainThread]: Connection:
+[0m11:37:49.527504 [info ] [MainThread]:   method: service-account
+[0m11:37:49.528115 [info ] [MainThread]:   database: df12-demo
+[0m11:37:49.528715 [info ] [MainThread]:   execution_project: df12-demo
+[0m11:37:49.529124 [info ] [MainThread]:   schema: lab
+[0m11:37:49.529555 [info ] [MainThread]:   location: US
+[0m11:37:49.529747 [info ] [MainThread]:   priority: interactive
+[0m11:37:49.529960 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m11:37:49.530272 [info ] [MainThread]:   impersonate_service_account: None
+[0m11:37:49.530512 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m11:37:49.530672 [info ] [MainThread]:   job_retries: 1
+[0m11:37:49.530812 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m11:37:49.530948 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m11:37:49.531076 [info ] [MainThread]:   timeout_seconds: 300
+[0m11:37:49.531205 [info ] [MainThread]:   client_id: None
+[0m11:37:49.531384 [info ] [MainThread]:   token_uri: None
+[0m11:37:49.531561 [info ] [MainThread]:   dataproc_region: None
+[0m11:37:49.531695 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m11:37:49.531827 [info ] [MainThread]:   gcs_bucket: None
+[0m11:37:49.531954 [info ] [MainThread]:   dataproc_batch: None
+[0m11:37:49.533040 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m11:37:49.559505 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m11:37:49.560373 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:37:49.560788 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'learn-dbt/dbt-executor.json''
+[0m11:37:49.561069 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:37:49.561275 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:37:49.561428 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/dbt_project.yml> not found
+
+[0m11:37:49.561577 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: 'learn-dbt/dbt-executor.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:37:49.564871 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.1495695, "process_user_time": 2.725673, "process_kernel_time": 0.416005, "process_mem_max_rss": "181026816", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:37:49.565365 [debug] [MainThread]: Command `dbt debug` failed at 11:37:49.565259 after 1.15 seconds
+[0m11:37:49.565636 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:37:49.565851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1002a6b40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16110b440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13239bbc0>]}
+[0m11:37:49.566116 [debug] [MainThread]: Flushing usage events
+[0m11:38:18.201570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123867fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1238aefc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1238aec30>]}
+
+
+============================== 11:38:18.204621 | 6ad8ab75-4fd0-4783-9a95-2c89a6f011b3 ==============================
+[0m11:38:18.204621 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:38:18.206456 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m11:38:31.700797 [info ] [MainThread]: A project called learn_dbt_fundamentals already exists here.
+[0m11:38:31.707515 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 13.540528, "process_user_time": 0.991654, "process_kernel_time": 0.152654, "process_mem_max_rss": "91357184", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:38:31.708914 [debug] [MainThread]: Command `dbt init` succeeded at 11:38:31.708574 after 13.54 seconds
+[0m11:38:31.710085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1205d1a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122692240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123867fb0>]}
+[0m11:38:31.710964 [debug] [MainThread]: Flushing usage events
+[0m11:39:07.895068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0bafc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0eaf00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0eab70>]}
+
+
+============================== 11:39:07.898333 | 451fb5f6-daff-4e30-b3b0-00e7f59ef881 ==============================
+[0m11:39:07.898333 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:39:07.898664 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:39:14.031003 [debug] [MainThread]: Starter project path: /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:39:14.042853 [info ] [MainThread]: 
+Your new dbt project "learn_dbt_fundamentals" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:39:14.043302 [info ] [MainThread]: Setting up your profile.
+[0m11:39:38.608052 [error] [MainThread]: Encountered an error:
+
+[0m11:39:38.617504 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 344, in run
+    self.setup_profile(profile_name)
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 264, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 181, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 165, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 118, in generate_target_from_input
+    target = self.generate_target_from_input(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/task/init.py", line 131, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m11:39:38.623086 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 30.766253, "process_user_time": 2.953081, "process_kernel_time": 0.521962, "process_mem_max_rss": "177586176", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:39:38.624021 [debug] [MainThread]: Command `dbt init` failed at 11:39:38.623865 after 30.77 seconds
+[0m11:39:38.624615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b0e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11df725d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ddae930>]}
+[0m11:39:38.625097 [debug] [MainThread]: Flushing usage events
+[0m11:39:46.504150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b679b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bab140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105baadb0>]}
+
+
+============================== 11:39:46.507529 | 27f28f5d-58b2-4811-a6ca-8b7816d4f7b3 ==============================
+[0m11:39:46.507529 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:39:46.507864 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:39:58.856050 [debug] [MainThread]: Starter project path: /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:39:58.865110 [info ] [MainThread]: 
+Your new dbt project "learn_dbt_fundamentals" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:39:58.865853 [info ] [MainThread]: Setting up your profile.
+[0m11:40:28.141891 [info ] [MainThread]: Profile learn_dbt_fundamentals written to /Users/alya/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:40:28.159138 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 41.69492, "process_user_time": 2.800174, "process_kernel_time": 0.534194, "process_mem_max_rss": "178733056", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:40:28.163628 [debug] [MainThread]: Command `dbt init` succeeded at 11:40:28.162235 after 41.70 seconds
+[0m11:40:28.164674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10566dd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063d29c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12f6d58e0>]}
+[0m11:40:28.165153 [debug] [MainThread]: Flushing usage events
+[0m11:40:34.721206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111da3c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111de6fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111de6c60>]}
+
+
+============================== 11:40:34.724297 | 5b1e206d-9b21-401f-a43c-856c416f72c6 ==============================
+[0m11:40:34.724297 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:40:34.724629 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:40:34.724966 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:40:34.725124 [info ] [MainThread]: python version: 3.12.3
+[0m11:40:34.725263 [info ] [MainThread]: python path: /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/venv/bin/python
+[0m11:40:34.725402 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m11:40:35.458396 [info ] [MainThread]: Using profiles dir at /Users/alya/.dbt
+[0m11:40:35.458933 [info ] [MainThread]: Using profiles.yml file at /Users/alya/.dbt/profiles.yml
+[0m11:40:35.459119 [info ] [MainThread]: Using dbt_project.yml file at /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/dbt_project.yml
+[0m11:40:35.459491 [info ] [MainThread]: adapter type: bigquery
+[0m11:40:35.459648 [info ] [MainThread]: adapter version: 1.7.7
+[0m11:40:35.459827 [info ] [MainThread]: Configuration:
+[0m11:40:35.459958 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:40:35.460087 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:40:35.460217 [info ] [MainThread]: Required dependencies:
+[0m11:40:35.460420 [debug] [MainThread]: Executing "git --help"
+[0m11:40:35.479777 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:40:35.480315 [debug] [MainThread]: STDERR: "b''"
+[0m11:40:35.480504 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:40:35.480691 [info ] [MainThread]: Connection:
+[0m11:40:35.480888 [info ] [MainThread]:   method: service-account
+[0m11:40:35.481033 [info ] [MainThread]:   database: df12-demo
+[0m11:40:35.481162 [info ] [MainThread]:   execution_project: df12-demo
+[0m11:40:35.481287 [info ] [MainThread]:   schema: lab
+[0m11:40:35.481410 [info ] [MainThread]:   location: US
+[0m11:40:35.481533 [info ] [MainThread]:   priority: interactive
+[0m11:40:35.481658 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m11:40:35.481780 [info ] [MainThread]:   impersonate_service_account: None
+[0m11:40:35.481902 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m11:40:35.482022 [info ] [MainThread]:   job_retries: 1
+[0m11:40:35.482141 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m11:40:35.482265 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m11:40:35.482386 [info ] [MainThread]:   timeout_seconds: 300
+[0m11:40:35.483003 [info ] [MainThread]:   client_id: None
+[0m11:40:35.485145 [info ] [MainThread]:   token_uri: None
+[0m11:40:35.485480 [info ] [MainThread]:   dataproc_region: None
+[0m11:40:35.485748 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m11:40:35.485983 [info ] [MainThread]:   gcs_bucket: None
+[0m11:40:35.486199 [info ] [MainThread]:   dataproc_batch: None
+[0m11:40:35.486517 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m11:40:35.491608 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m11:40:35.492531 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:40:35.494424 [debug] [MainThread]: On debug: select 1 as id
+[0m11:40:36.976084 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=df12-demo&j=bq:US:87ec70c3-9a20-4bcb-a22e-5b583769eaff&page=queryresults
+[0m11:40:37.966512 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:40:37.967801 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:40:37.968270 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/dbt_project.yml> not found
+
+[0m11:40:37.971966 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 3.2840824, "process_user_time": 2.855072, "process_kernel_time": 0.436421, "process_mem_max_rss": "182861824", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:40:37.972974 [debug] [MainThread]: Command `dbt debug` failed at 11:40:37.972730 after 3.29 seconds
+[0m11:40:37.973611 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:40:37.974223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ada3f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112acce60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10501fc20>]}
+[0m11:40:37.974775 [debug] [MainThread]: Flushing usage events
+[0m10:12:16.916623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910e600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10913b2f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10913af60>]}
+
+
+============================== 10:12:16.919945 | da72e93c-6d7d-4541-9c2d-25223df0ed9c ==============================
+[0m10:12:16.919945 [info ] [MainThread]: Running with dbt=1.7.13
+[0m10:12:16.920265 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/alya/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:12:16.920547 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alya/Documents/GitHub/DataFellowship12/Training 12 - DBT for Data Transformations/learn-dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:12:16.922352 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_wall_clock_time": 0.03920692, "process_user_time": 0.818534, "process_kernel_time": 0.109483, "process_mem_max_rss": "97075200", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:12:16.922664 [debug] [MainThread]: Command `dbt seed` failed at 10:12:16.922600 after 0.04 seconds
+[0m10:12:16.922836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e528d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108992ba0>]}
+[0m10:12:16.923017 [debug] [MainThread]: Flushing usage events
