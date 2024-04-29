@@ -27,3 +27,52 @@ Happy modeling!
 [0m11:19:41.980232 [debug] [MainThread]: Command `dbt init` succeeded at 11:19:41.980055 after 124.79 seconds
 [0m11:19:41.981051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb71a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1385203b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f87a5a0>]}
 [0m11:19:41.982008 [debug] [MainThread]: Flushing usage events
+[0m20:40:58.952997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f59400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f8b3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f8b050>]}
+
+
+============================== 20:40:58.957878 | 910b9537-0092-43fd-b79d-8d5bca582907 ==============================
+[0m20:40:58.957878 [info ] [MainThread]: Running with dbt=1.7.13
+[0m20:40:58.958341 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:58.958817 [info ] [MainThread]: dbt version: 1.7.13
+[0m20:40:58.959052 [info ] [MainThread]: python version: 3.12.3
+[0m20:40:58.959265 [info ] [MainThread]: python path: /Users/alya/myenv/bin/python3.12
+[0m20:40:58.959472 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m20:41:05.211548 [info ] [MainThread]: Using profiles dir at /Users/alya/.dbt
+[0m20:41:05.212020 [info ] [MainThread]: Using profiles.yml file at /Users/alya/.dbt/profiles.yml
+[0m20:41:05.212339 [info ] [MainThread]: Using dbt_project.yml file at /Users/alya/Documents/GitHub/DataFellowship12/Training 14 - Hands on Hands-On Transformation Scenarios with Banking Data/hands-on/dbt_project.yml
+[0m20:41:05.212644 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m20:41:05.227397 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 6.320641, "process_user_time": 3.271334, "process_kernel_time": 1.301515, "process_mem_max_rss": "182288384", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m20:41:05.227938 [debug] [MainThread]: Command `dbt debug` failed at 20:41:05.227834 after 6.32 seconds
+[0m20:41:05.228245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14c951580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14c056120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12793fcb0>]}
+[0m20:41:05.228555 [debug] [MainThread]: Flushing usage events
+[0m13:57:27.273031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087c6840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10849da60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087fb260>]}
+
+
+============================== 13:57:27.276852 | d3d31006-d1f6-4d31-a5ef-e0b1775331b9 ==============================
+[0m13:57:27.276852 [info ] [MainThread]: Running with dbt=1.7.13
+[0m13:57:27.277175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alya/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:37.637922 [debug] [MainThread]: Starter project path: /Users/alya/myenv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m13:57:37.649270 [info ] [MainThread]: 
+Your new dbt project "portugese_bank" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:57:37.649982 [info ] [MainThread]: Setting up your profile.
+[0m13:58:08.236193 [info ] [MainThread]: Profile portugese_bank written to /Users/alya/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:58:08.266249 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 41.02051, "process_user_time": 2.506693, "process_kernel_time": 1.064257, "process_mem_max_rss": "180764672", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:58:08.267341 [debug] [MainThread]: Command `dbt init` succeeded at 13:58:08.267047 after 41.02 seconds
+[0m13:58:08.268352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087fb260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109513da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1340b0140>]}
+[0m13:58:08.269036 [debug] [MainThread]: Flushing usage events

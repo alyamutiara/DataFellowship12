@@ -1,6 +1,0 @@
-version: 2
-
-sources:
-  - name: dbtLearn
-    tables:
-    - name: raw_bank
