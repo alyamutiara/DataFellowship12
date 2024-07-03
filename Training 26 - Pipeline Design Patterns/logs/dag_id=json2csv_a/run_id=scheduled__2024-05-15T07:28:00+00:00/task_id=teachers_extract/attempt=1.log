@@ -1,0 +1,19 @@
+[2024-05-15T07:30:02.838+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-15T07:30:02.862+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: json2csv_a.teachers_extract scheduled__2024-05-15T07:28:00+00:00 [queued]>
+[2024-05-15T07:30:02.866+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: json2csv_a.teachers_extract scheduled__2024-05-15T07:28:00+00:00 [queued]>
+[2024-05-15T07:30:02.866+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-15T07:30:02.872+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): teachers_extract> on 2024-05-15 07:28:00+00:00
+[2024-05-15T07:30:02.883+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2087) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-15T07:30:02.884+0000] {standard_task_runner.py:63} INFO - Started process 2092 to run task
+[2024-05-15T07:30:02.887+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'json2csv_a', 'teachers_extract', 'scheduled__2024-05-15T07:28:00+00:00', '--job-id', '1164', '--raw', '--subdir', 'DAGS_FOLDER/json_to_csv.py', '--cfg-path', '/tmp/tmpnxul144n']
+[2024-05-15T07:30:02.889+0000] {standard_task_runner.py:91} INFO - Job 1164: Subtask teachers_extract
+[2024-05-15T07:30:02.920+0000] {task_command.py:426} INFO - Running <TaskInstance: json2csv_a.teachers_extract scheduled__2024-05-15T07:28:00+00:00 [running]> on host 7331c320d95e
+[2024-05-15T07:30:03.006+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='json2csv_a' AIRFLOW_CTX_TASK_ID='teachers_extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T07:28:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-15T07:28:00+00:00'
+[2024-05-15T07:30:03.011+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-15T07:30:03.017+0000] {python.py:237} INFO - Done. Returned value was: [{'id': 1, 'name': 'Byeon Wooseok', 'start_date': '2023-01-01'}, {'id': 2, 'name': 'Kim Hyeyoon', 'start_date': '2008-09-01'}]
+[2024-05-15T07:30:03.018+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-15T07:30:03.050+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=json2csv_a, task_id=teachers_extract, run_id=scheduled__2024-05-15T07:28:00+00:00, execution_date=20240515T072800, start_date=20240515T073002, end_date=20240515T073003
+[2024-05-15T07:30:03.066+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-15T07:30:03.097+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

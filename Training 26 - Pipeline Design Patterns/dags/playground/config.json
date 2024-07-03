@@ -1,0 +1,40 @@
+[
+    {
+        "dag_id": "json2csv_a",
+        "start_date": "2024-05-10",
+        "schedule": "*/2 * * * *",
+        "task_configs": [
+            {
+                "name": "students",
+                "source_path": "/opt/airflow/dags/playground/source/database_a/students",
+                "columns": ["id", "name"],
+                "target_file": "/opt/airflow/dags/playground/target/dataset_a/students.csv"
+            },
+            {
+                "name": "teachers",
+                "source_path": "/opt/airflow/dags/playground/source/database_a/teachers",
+                "columns": ["id", "name", "start_date"],
+                "target_file": "/opt/airflow/dags/playground/target/dataset_a/teachers.csv"
+            }
+        ]
+    },
+    {
+        "dag_id": "json2csv_b",
+        "start_date": "2024-05-10",
+        "schedule": "*/2 * * * *",
+        "task_configs": [
+            {
+                "name": "boygroup",
+                "source_path": "/opt/airflow/dags/playground/source/database_b/boygroups",
+                "columns": ["id", "name", "members", "debut"],
+                "target_file": "/opt/airflow/dags/playground/target/dataset_b/boygroups.csv"
+            },
+            {
+                "name": "girlgroup",
+                "source_path": "/opt/airflow/dags/playground/source/database_b/girlgroups",
+                "columns": ["id", "name", "members", "debut"],
+                "target_file": "/opt/airflow/dags/playground/target/dataset_b/girlgroups.csv"
+            }
+        ]
+    }
+]

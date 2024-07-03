@@ -1,0 +1,20 @@
+[2024-05-14T09:04:04.684+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-14T09:04:04.721+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: json_to_csv_database_b.boygroup_extract scheduled__2024-05-14T09:02:00+00:00 [queued]>
+[2024-05-14T09:04:04.737+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: json_to_csv_database_b.boygroup_extract scheduled__2024-05-14T09:02:00+00:00 [queued]>
+[2024-05-14T09:04:04.739+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-14T09:04:04.759+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): boygroup_extract> on 2024-05-14 09:02:00+00:00
+[2024-05-14T09:04:04.827+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=6208) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-14T09:04:04.846+0000] {standard_task_runner.py:63} INFO - Started process 6216 to run task
+[2024-05-14T09:04:04.843+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'json_to_csv_database_b', 'boygroup_extract', 'scheduled__2024-05-14T09:02:00+00:00', '--job-id', '961', '--raw', '--subdir', 'DAGS_FOLDER/json_to_csv_database_b.py', '--cfg-path', '/tmp/tmpsl6g6xnc']
+[2024-05-14T09:04:04.850+0000] {standard_task_runner.py:91} INFO - Job 961: Subtask boygroup_extract
+[2024-05-14T09:04:05.036+0000] {task_command.py:426} INFO - Running <TaskInstance: json_to_csv_database_b.boygroup_extract scheduled__2024-05-14T09:02:00+00:00 [running]> on host 7331c320d95e
+[2024-05-14T09:04:05.262+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='json_to_csv_database_b' AIRFLOW_CTX_TASK_ID='boygroup_extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T09:02:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-14T09:02:00+00:00'
+[2024-05-14T09:04:05.281+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-14T09:04:05.293+0000] {python.py:237} INFO - Done. Returned value was: [{'id': 1, 'name': 'nct', 'members': '26', 'debut': '2016-04-09'}, {'id': 2, 'name': 'super junior', 'members': '10', 'debut': '2005-09-11'}, {'id': 3, 'name': 'straykids', 'members': '8', 'debut': '2018-03-25'}]
+[2024-05-14T09:04:05.297+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-14T09:04:05.356+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=json_to_csv_database_b, task_id=boygroup_extract, run_id=scheduled__2024-05-14T09:02:00+00:00, execution_date=20240514T090200, start_date=20240514T090404, end_date=20240514T090405
+[2024-05-14T09:04:05.410+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-14T09:04:05.479+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-14T09:04:05.481+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

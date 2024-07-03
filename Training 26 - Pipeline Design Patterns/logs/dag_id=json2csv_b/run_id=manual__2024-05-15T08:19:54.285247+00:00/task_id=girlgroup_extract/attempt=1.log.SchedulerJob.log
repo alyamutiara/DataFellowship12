@@ -1,0 +1,1 @@
+[2024-05-15T08:21:31.606+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: json2csv_b.girlgroup_extract manual__2024-05-15T08:19:54.285247+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
